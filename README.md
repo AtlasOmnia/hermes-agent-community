@@ -6,7 +6,7 @@ Hermes Agent Community Resources is an SEO-first mirror of the highest-signal r/
 
 - [Guides index](guides/)
 - [Start Here](guides/start-here.md)
-- [Installation overview](guides/installation.md)
+- [Windows installation](guides/windows-install.md)
 - [Model guide](guides/model-guide.md)
 - [Skills guide](guides/skills-guide.md)
 - [Cron jobs and automation](guides/cron-jobs-automation.md)
