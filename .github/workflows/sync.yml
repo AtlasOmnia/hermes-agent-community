@@ -1,37 +1,22 @@
-name: Sync r/hermesagent Content
+name: Build Check
 
 on:
-  schedule:
-    - cron: "0 6 * * *" # Daily at 6 AM UTC
-  workflow_dispatch:
-
-permissions:
-  contents: write
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  sync-reddit:
+  verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Run Reddit sync
-        run: |
-          bash scripts/sync-reddit.sh
-
-      - name: Commit mirrored changes
-        env:
-          TZ: UTC
-        run: |
-          git config user.name "hermes-community-bot"
-          git config user.email "bot@hermes-agent-community.github.io"
-
-          git add megathreads/
-
-          # Only commit if there are staged changes. This prevents empty commits.
-          if git diff --staged --quiet; then
-            echo "No new mirrored posts to commit."
-          else
-            git commit -m "Sync: r/hermesagent top posts $(date +%Y-%m-%d)"
-            git push
-          fi
+    - uses: actions/checkout@v4
+    - name: Verify structure
+      run: |
+        echo "Checking repository structure..."
+        test -f README.md || { echo "Missing README.md"; exit 1; }
+        test -f CONTRIBUTING.md || { echo "Missing CONTRIBUTING.md"; exit 1; }
+        test -f LICENSE || { echo "Missing LICENSE"; exit 1; }
+        test -d guides || { echo "Missing guides/"; exit 1; }
+        test -d scripts || { echo "Missing scripts/"; exit 1; }
+        echo "All checks passed."
