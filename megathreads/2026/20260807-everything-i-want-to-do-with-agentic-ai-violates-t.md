@@ -2,7 +2,7 @@
 title: "Everything I Want To Do With Agentic AI Violates TOS"
 author: u/obdurant93
 date: 2026-08-07
-score: 40
+score: 37
 comments: 34
 type: text
 reddit_url: https://old.reddit.com/r/hermesagent/comments/1vhlrsd/everything_i_want_to_do_with_agentic_ai_violates/
@@ -11,7 +11,7 @@ flair: "Strategy — Business models, monetization, automation"
 
 # Everything I Want To Do With Agentic AI Violates TOS
 
-**Posted by u/obdurant93 on 2026-08-07 · 40 points · 34 comments**
+**Posted by u/obdurant93 on 2026-08-07 · 37 points · 34 comments**
 
 Hermes Agent
 , the open-source AI assistant by Nous Research
