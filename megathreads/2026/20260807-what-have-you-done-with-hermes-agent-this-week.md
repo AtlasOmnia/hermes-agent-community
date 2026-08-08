@@ -2,8 +2,8 @@
 title: "What have you done with Hermes Agent this week?"
 author: u/AutoModerator
 date: 2026-08-07
-score: 7
-comments: 26
+score: 14
+comments: 31
 type: text
 reddit_url: https://old.reddit.com/r/hermesagent/comments/1vhwerm/what_have_you_done_with_hermes_agent_this_week/
 flair: "Use Case — How I use Hermes, workflows, daily routines"
@@ -11,7 +11,7 @@ flair: "Use Case — How I use Hermes, workflows, daily routines"
 
 # What have you done with Hermes Agent this week?
 
-**Posted by u/AutoModerator on 2026-08-07 · 7 points · 26 comments**
+**Posted by u/AutoModerator on 2026-08-07 · 14 points · 31 comments**
 
 Hermes Agent
 , the open-source AI assistant by Nous Research

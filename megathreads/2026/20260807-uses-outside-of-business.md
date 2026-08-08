@@ -2,8 +2,8 @@
 title: "Uses outside of business"
 author: u/homersimon
 date: 2026-08-07
-score: 16
-comments: 28
+score: 20
+comments: 37
 type: text
 reddit_url: https://old.reddit.com/r/hermesagent/comments/1vi1pmn/uses_outside_of_business/
 flair: "Discussion — General thoughts, opinions, comparisons"
@@ -11,7 +11,7 @@ flair: "Discussion — General thoughts, opinions, comparisons"
 
 # Uses outside of business
 
-**Posted by u/homersimon on 2026-08-07 · 16 points · 28 comments**
+**Posted by u/homersimon on 2026-08-07 · 20 points · 37 comments**
 
 Hermes Agent
 , the open-source AI assistant by Nous Research
