@@ -14,6 +14,9 @@ Hermes Agent Community Resources is an SEO-first mirror of the highest-signal r/
 - [Use cases](guides/use-cases.md)
 - [Community builds](showcase/community-builds/)
 - [Automation recipes](showcase/automation-recipes/)
+- [Community Desktop plugins](https://github.com/AtlasOmnia/community-plugins)
+- [Community skills](https://github.com/AtlasOmnia/community-skills)
+- [Community skins](https://github.com/AtlasOmnia/community-skins)
 
 ## What Is Hermes Agent?
 
@@ -22,6 +25,14 @@ Hermes Agent Community Resources is an SEO-first mirror of the highest-signal r/
 From a user perspective, **Hermes Agent** is a programmable assistant that can execute tasks you define through prompts, skills, and plugins. It is intentionally useful for people who want hands-on automation more than pure chat output, and for teams that need a persistent local-first AI agent they can inspect, extend, and control.
 
 If you are deciding between tools, the common query **"what is Hermes Agent"** maps to these core points: local-first execution, model flexibility, and automation-first design. The community mirrors and guides here focus on production-safe implementation patterns rather than hype.
+
+## Community Extension Directories
+
+- [Desktop plugins](https://github.com/AtlasOmnia/community-plugins) — executable native Hermes Desktop extensions.
+- [Skills](https://github.com/AtlasOmnia/community-skills) — agent-readable workflows and integration guides.
+- [Skins](https://github.com/AtlasOmnia/community-skins) — static YAML palettes; ESM skin plugins remain in the plugin directory.
+
+Each directory is source-linked and curated, not security-audited. The Discord and Reddit showcase surfaces are discovery inputs, not automatic publication approval.
 
 ## Community Links
 
