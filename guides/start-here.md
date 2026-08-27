@@ -56,7 +56,7 @@ Hermes Agent is an **open-source, local-first AI agent framework** developed by 
 
 ChatGPT and Claude are chatbots — you send a message, they reply. Hermes is an **agent**. When you give it a task, it uses tools (terminal, browser, file system) to complete that task autonomously. It doesn't just tell you what to do — it does it.
 
-For a deeper comparison, see the [Hermes Agent vs Alternatives](wiki/comparison-hermes-vs-alternatives) guide.
+For a deeper comparison, see the [Hermes Agent vs Alternatives](comparison-hermes-vs-alternatives.md) guide.
 
 ---
 
@@ -102,7 +102,7 @@ After installation:
 hermes setup
 ```
 
-For detailed Windows-specific configuration (WSL, native vs. WSL tradeoffs, GPU passthrough, Windows Service setup), see the [Windows Installation Guide](wiki/windows-install).
+For detailed Windows-specific configuration (WSL, native vs. WSL tradeoffs, GPU passthrough, Windows Service setup), see the [Windows Installation Guide](windows-install.md).
 
 ### Linux
 
@@ -116,7 +116,7 @@ Then:
 hermes setup
 ```
 
-Hermes works on any modern Linux distribution (Ubuntu 20.04+, Debian 11+, Fedora 38+, Arch). For headless server setups, see the [Multi-Machine Setup Guide](wiki/multi-machine-setup).
+Hermes works on any modern Linux distribution (Ubuntu 20.04+, Debian 11+, Fedora 38+, Arch). For headless server setups, see the [Multi-Machine Setup Guide](multi-machine-setup.md).
 
 **Verify your installation:**
 
@@ -186,7 +186,7 @@ Type `/help` inside your Hermes session to see all available commands. Try:
 
 ### Going Further
 
-For a deeper walkthrough of your first session, including file editing, git integration, and multi-step workflows, check the [Skills Guide](wiki/skills-guide) and the [50 Use Cases](wiki/use-cases) page.
+For a deeper walkthrough of your first session, including file editing, git integration, and multi-step workflows, check the [Skills Guide](skills-guide.md) and the [50 Use Cases](use-cases.md) page.
 
 ---
 
@@ -253,7 +253,7 @@ This opens an interactive picker. You can also specify a model directly:
 hermes chat --model "anthropic/claude-sonnet-4" --provider anthropic
 ```
 
-For a complete breakdown of models, benchmarks, and provider setup, see the [Model Guide](wiki/model-guide).
+For a complete breakdown of models, benchmarks, and provider setup, see the [Model Guide](model-guide.md).
 
 ---
 
@@ -318,7 +318,7 @@ hermes profile use work          # Switch to work profile
 
 Each profile lives in `~/.hermes/profiles/<name>/` with its own complete configuration.
 
-For a deep dive into profiles — including domain-specific profiles, memory isolation, and multi-profile workflows — see the [Profiles Guide](wiki/profiles-guide).
+For a deep dive into profiles — including domain-specific profiles, memory isolation, and multi-profile workflows — see the [Profiles Guide](profiles-guide.md).
 
 ### Skills: What They Are
 
@@ -336,7 +336,7 @@ In-session, load a skill with:
 /skill hermes-agent
 ```
 
-Skills are the core extensibility mechanism in Hermes. Community members have published skills for everything from GitHub PR review to sports betting research. Learn to write your own in the [Skills Guide](wiki/skills-guide).
+Skills are the core extensibility mechanism in Hermes. Community members have published skills for everything from GitHub PR review to sports betting research. Learn to write your own in the [Skills Guide](skills-guide.md).
 
 ### Gateway Setup (Optional)
 
@@ -347,7 +347,7 @@ hermes gateway setup     # Interactive configuration
 hermes gateway run       # Start the gateway
 ```
 
-Each platform has its own setup requirements. For a complete walkthrough, see the [Telegram Gateway Setup Guide](wiki/telegram-gateway-setup).
+Each platform has its own setup requirements. For a complete walkthrough, see the [Telegram Gateway Setup Guide](telegram-gateway-setup.md).
 
 ---
 
@@ -363,7 +363,7 @@ A cron job that runs every morning, searches for top headlines in your chosen to
 hermes cron create "0 8 * * *" --prompt "Search the web for today's top AI and technology news. Summarize the 5 most important stories and save to ~/briefings/$(date +%Y-%m-%d)-news.md"
 ```
 
-For more cron job recipes, see the [Cron Jobs & Automation Guide](wiki/cron-jobs-automation).
+For more cron job recipes, see the [Cron Jobs & Automation Guide](cron-jobs-automation.md).
 
 ### 2. GitHub PR Reviewer (Skill)
 
@@ -373,13 +373,13 @@ Load the `github-code-review` skill and point Hermes at an open PR:
 Load the github-code-review skill, then review the PR at https://github.com/user/repo/pull/42
 ```
 
-Hermes fetches the diff, analyzes the changes, and provides inline comments via the GitHub API. See the [Skills Guide](wiki/skills-guide) for the full workflow.
+Hermes fetches the diff, analyzes the changes, and provides inline comments via the GitHub API. See the [Skills Guide](skills-guide.md) for the full workflow.
 
 ### 3. Telegram Bot That Responds to Messages (Gateway)
 
 Connect Hermes to Telegram, then it can respond to your DMs, participate in group chats, and deliver cron job results to your phone.
 
-After gateway setup (see the [Telegram Setup Guide](wiki/telegram-gateway-setup)), simply send a message to your bot — Hermes processes it with full tool access.
+After gateway setup (see the [Telegram Setup Guide](telegram-gateway-setup.md)), simply send a message to your bot — Hermes processes it with full tool access.
 
 ### 4. File Organizer (Terminal)
 
@@ -399,7 +399,7 @@ A cron job that monitors a website for changes and alerts you:
 Create a cron job that runs every 4 hours, navigates to https://nousresearch.com, extracts any new blog posts or announcements since the last check, and saves them to ~/monitors/nous-updates.md. If there's new content, send me a notification.
 ```
 
-For more browser automation patterns, see the [Browser Automation Guide](wiki/browser-automation).
+For more browser automation patterns, see the [Browser Automation Guide](browser-automation.md).
 
 ---
 
@@ -410,7 +410,10 @@ For more browser automation patterns, see the [Browser Automation Guide](wiki/br
 - **[GitHub (Nous Research)](https://github.com/NousResearch/hermes-agent)** — Source code, issues, contributions
 - **[Discord](https://discord.gg/nousresearch)** — Real-time chat with the dev team and community
 - **[Skills Hub](https://hermes-agent.nousresearch.com/docs/reference/skills-catalog)** — Browse community skills
-- **[Community Showcase](wiki/use-cases)** — 50 real automation ideas from the community
+- **[Community Plugin Directory](https://github.com/AtlasOmnia/community-plugins)** — 52 source-verified native Hermes Desktop plugins
+- **[Community Skills Directory](https://github.com/AtlasOmnia/community-skills)** — Source-linked community workflows and integration guides
+- **[Community Skins Directory](https://github.com/AtlasOmnia/community-skins)** — Static YAML skins; ESM skin plugins remain in the plugin directory
+- **[Community Showcase](use-cases.md)** — 50 real automation ideas from the community
 
 ---
 
@@ -426,23 +429,23 @@ Yes. Hermes Agent is open-source (MIT license) and free to use. You only pay for
 
 ### What's the difference between Hermes Agent and Claude Code?
 
-Claude Code is Anthropic's cloud-only coding agent, locked to Claude models. Hermes Agent is open-source, model-agnostic, runs locally, supports messaging platforms, has cron scheduling, and is extensible via skills and plugins. For a detailed comparison, see [Hermes Agent vs Alternatives](wiki/comparison-hermes-vs-alternatives).
+Claude Code is Anthropic's cloud-only coding agent, locked to Claude models. Hermes Agent is open-source, model-agnostic, runs locally, supports messaging platforms, has cron scheduling, and is extensible via skills and plugins. For a detailed comparison, see [Hermes Agent vs Alternatives](comparison-hermes-vs-alternatives.md).
 
 ### Can Hermes Agent control my browser?
 
-Yes. Hermes has a full browser automation toolset (navigate, click, type, scroll, extract content) and `computer_use` for desktop automation. See the [Browser Automation Guide](wiki/browser-automation) for setup and use cases.
+Yes. Hermes has a full browser automation toolset (navigate, click, type, scroll, extract content) and `computer_use` for desktop automation. See the [Browser Automation Guide](browser-automation.md) for setup and use cases.
 
 ### What models work best with Hermes Agent?
 
-For local use: Qwen2.5-Coder (7B-32B), Llama 3.1/3.3 (8B-70B), and Command-R-Plus. For cloud: Claude Sonnet 4, DeepSeek V4, GPT-4o. The [Model Guide](wiki/model-guide) has detailed tiered recommendations.
+For local use: Qwen2.5-Coder (7B-32B), Llama 3.1/3.3 (8B-70B), and Command-R-Plus. For cloud: Claude Sonnet 4, DeepSeek V4, GPT-4o. The [Model Guide](model-guide.md) has detailed tiered recommendations.
 
 ### How do I connect Hermes Agent to Telegram?
 
-Create a Telegram bot via @BotFather, add the token to your `~/.hermes/.env` file, then run `hermes gateway setup` and select Telegram. Full step-by-step in the [Telegram Gateway Setup Guide](wiki/telegram-gateway-setup).
+Create a Telegram bot via @BotFather, add the token to your `~/.hermes/.env` file, then run `hermes gateway setup` and select Telegram. Full step-by-step in the [Telegram Gateway Setup Guide](telegram-gateway-setup.md).
 
 ### Does Hermes Agent work on Windows/Mac/Linux?
 
-Yes — all three platforms are fully supported. macOS and Linux via bash script, Windows via PowerShell script or installer. Platform-specific guides: [Windows Installation](wiki/windows-install), [Multi-Machine Setup](wiki/multi-machine-setup).
+Yes — all three platforms are fully supported. macOS and Linux via bash script, Windows via PowerShell script or installer. Platform-specific guides: [Windows Installation](windows-install.md), [Multi-Machine Setup](multi-machine-setup.md).
 
 ### How much does it cost to run Hermes Agent?
 
@@ -466,9 +469,10 @@ When running local models, your data never leaves your machine. When using cloud
 
 **Now that you're set up, here's your learning path:**
 
-1. **[Model Guide →](wiki/model-guide)** Pick the right model for your hardware and use case
-2. **[Skills Guide →](wiki/skills-guide)** Learn to use and write skills — the core extensibility system
-3. **[Cron Jobs & Automation →](wiki/cron-jobs-automation)** Schedule automations that run 24/7
-4. **[50 Use Cases →](wiki/use-cases)** See what the community is building
+1. **[Model Guide →](model-guide.md)** Pick the right model for your hardware and use case
+2. **[Skills Guide →](skills-guide.md)** Learn to use and write skills — the core extensibility system
+3. **[Cron Jobs & Automation →](cron-jobs-automation.md)** Schedule automations that run 24/7
+4. **[50 Use Cases →](use-cases.md)** See what the community is building
+5. **[Community Directories →](https://github.com/AtlasOmnia/hermes-agent-community#community-extension-directories)** Browse vetted source links for plugins, skills, and static skins
 
-**Also see:** [Telegram Setup](wiki/telegram-gateway-setup) · [Profiles Guide](wiki/profiles-guide) · [Browser Automation](wiki/browser-automation) · [Official Docs](https://hermes-agent.nousresearch.com/docs)
+**Also see:** [Telegram Setup](telegram-gateway-setup.md) · [Profiles Guide](profiles-guide.md) · [Browser Automation](browser-automation.md) · [Official Docs](https://hermes-agent.nousresearch.com/docs)
