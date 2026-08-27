@@ -3,11 +3,22 @@
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
 **Total:** 123 posts
-**Dates:** UTC  
+**Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-08-27 | Community-plugins | [Open post](https://www.reddit.com/r/hermesagent/comments/1vzfv3v/communityplugins/) |
+| 2026-08-23 | Looking for a few people to help test and finish a voice control plane for Hermes | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwj2sa/looking_for_a_few_people_to_help_test_and_finish/) |
+| 2026-08-23 | We built a community plugin list for the Hermes desktop client | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwisf2/we_built_a_community_plugin_list_for_the_hermes/) |
+| 2026-08-23 | A parallel space for deeper model setup conversations: r/LocalLLaMa_V2/ | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwii8f/a_parallel_space_for_deeper_model_setup/) |
+| 2026-08-23 | Cloud Models & Providers for Hermes Agent — The August 2026 Megathread | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvv2x1/cloud_models_providers_for_hermes_agent_the/) |
+| 2026-08-23 | Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict 8-22-26 | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvtrc5/qwen3827b_one_week_later_the_rlocalllama/) |
+| 2026-08-22 | While Ox Alpha is free - Day over Day incremental improvements | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvhqg4/while_ox_alpha_is_free_day_over_day_incremental/) |
+| 2026-08-22 | Feedback Is Welcome. Personal Attacks Are Not. | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvabn8/feedback_is_welcome_personal_attacks_are_not/) |
+| 2026-08-20 | FREE ------ Open Router Free Model | [Open post](https://www.reddit.com/r/hermesagent/comments/1vu03x7/free_open_router_free_model/) |
+| 2026-08-18 | “UNCENSORED” QWEN 3.6 35B A3B ( Post Removed) | [Open post](https://www.reddit.com/r/hermesagent/comments/1vs2eeb/uncensored_qwen_36_35b_a3b_post_removed/) |
+| 2026-08-17 | Qwen 3.8 27B - Day 3 Summary | [Open post](https://www.reddit.com/r/hermesagent/comments/1vr554a/qwen_38_27b_day_3_summary/) |
 | 2026-08-16 | Megathread Submission Request | [Open post](https://www.reddit.com/r/hermesagent/comments/1vq28h5/megathread_submission_request/) |
 | 2026-08-14 | Qwen 3.8 Release Megathread | [Open post](https://www.reddit.com/r/hermesagent/comments/1voapha/qwen_38_release_megathread/) |
 | 2026-08-13 | Cron triggered improvement loops | [Open post](https://www.reddit.com/r/hermesagent/comments/1vnmlow/cron_triggered_improvement_loops/) |
@@ -110,7 +121,7 @@ An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jo
 | 2026-04-16 | Qwen3.6-35B-A3B released! | [Open post](https://www.reddit.com/r/hermesagent/comments/1sn4azp/qwen3635ba3b_released/) |
 | 2026-04-16 | Skill Optimizer Template | [Open post](https://www.reddit.com/r/hermesagent/comments/1smrg4k/skill_optimizer_template/) |
 | 2026-04-15 | How Skills Work in Hermes Agent | [Open post](https://www.reddit.com/r/hermesagent/comments/1smlqdt/how_skills_work_in_hermes_agent/) |
-| 2026-04-15 | 🧠 Big brains needed - Get in here -  Hermes Structure and Organizational Setup Questions | [Open post](https://www.reddit.com/r/hermesagent/comments/1slsr1q/big_brains_needed_get_in_here_hermes_structure/) |
+| 2026-04-15 | 🧠 Big brains needed - Get in here - Hermes Structure and Organizational Setup Questions | [Open post](https://www.reddit.com/r/hermesagent/comments/1slsr1q/big_brains_needed_get_in_here_hermes_structure/) |
 | 2026-04-14 | TODAY : Hermes Agent Jam. Nous Research team, presentations, Q&A. | [Open post](https://www.reddit.com/r/hermesagent/comments/1slanmq/today_hermes_agent_jam_nous_research_team/) |
 | 2026-04-14 | Tomorrow: Hermes Agent Jam. Nous Research team, presentations, Q&A. | [Open post](https://www.reddit.com/r/hermesagent/comments/1skv61q/tomorrow_hermes_agent_jam_nous_research_team/) |
 | 2026-04-12 | 📢 Week Schedule: Upcoming Master Threads | [Open post](https://www.reddit.com/r/hermesagent/comments/1sjr653/week_schedule_upcoming_master_threads/) |
@@ -120,14 +131,3 @@ An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jo
 | 2026-04-08 | [Megathread] Migrating from OpenClaw to Hermes? Read this first. | [Open post](https://www.reddit.com/r/hermesagent/comments/1sfezio/megathread_migrating_from_openclaw_to_hermes_read/) |
 | 2026-03-31 | Title: How to connect Open WebUI to Hermes Agent (with Tailscale for remote access) | [Open post](https://www.reddit.com/r/hermesagent/comments/1s8axbw/title_how_to_connect_open_webui_to_hermes_agent/) |
 | 2026-03-27 | Hermes Agent - Personal Assistant In Development | [Open post](https://www.reddit.com/r/hermesagent/comments/1s4qhl2/hermes_agent_personal_assistant_in_development/) |
-| 2026-08-17 | Qwen 3.8 27B - Day 3 Summary | [Open post](https://www.reddit.com/r/hermesagent/comments/1vr554a/qwen_38_27b_day_3_summary/) |
-| 2026-08-18 | “UNCENSORED” QWEN 3.6 35B A3B ( Post Removed) | [Open post](https://www.reddit.com/r/hermesagent/comments/1vs2eeb/uncensored_qwen_36_35b_a3b_post_removed/) |
-| 2026-08-20 | FREE ------ Open Router Free Model | [Open post](https://www.reddit.com/r/hermesagent/comments/1vu03x7/free_open_router_free_model/) |
-| 2026-08-22 | Feedback Is Welcome. Personal Attacks Are Not. | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvabn8/feedback_is_welcome_personal_attacks_are_not/) |
-| 2026-08-22 | While Ox Alpha is free - Day over Day incremental improvements | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvhqg4/while_ox_alpha_is_free_day_over_day_incremental/) |
-| 2026-08-23 | Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict 8-22-26 | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvtrc5/qwen3827b_one_week_later_the_rlocalllama/) |
-| 2026-08-23 | Cloud Models & Providers for Hermes Agent — The August 2026 Megathread | [Open post](https://www.reddit.com/r/hermesagent/comments/1vvv2x1/cloud_models_providers_for_hermes_agent_the/) |
-| 2026-08-23 | A parallel space for deeper model setup conversations: r/LocalLLaMa_V2/ | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwii8f/a_parallel_space_for_deeper_model_setup/) |
-| 2026-08-23 | We built a community plugin list for the Hermes desktop client | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwisf2/we_built_a_community_plugin_list_for_the_hermes/) |
-| 2026-08-23 | Looking for a few people to help test and finish a voice control plane for Hermes | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwj2sa/looking_for_a_few_people_to_help_test_and_finish/) |
-| 2026-08-27 | Community-plugins | [Open post](https://www.reddit.com/r/hermesagent/comments/1vzfv3v/communityplugins/) |
