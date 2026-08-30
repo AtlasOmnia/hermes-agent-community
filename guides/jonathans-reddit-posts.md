@@ -2,12 +2,16 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 123 posts
+**Total:** 127 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-08-30 | Qwen3.8-27B on Mac: quants, temperatures, hardware, and the speed tricks that actually matter | [Open post](https://www.reddit.com/r/hermesagent/comments/1w28crr/qwen3827b_on_mac_quants_temperatures_hardware_and/) |
+| 2026-08-29 | How to Use Hermes Anywhere: Mobile, Messaging & Remote Access Megathread | [Open post](https://www.reddit.com/r/hermesagent/comments/1w1ulkc/how_to_use_hermes_anywhere_mobile_messaging/) |
+| 2026-08-29 | How are people using Hermes Agent for autonomous coding and keeping long-running projects going unattended? | [Open post](https://www.reddit.com/r/hermesagent/comments/1w1ud8h/how_are_people_using_hermes_agent_for_autonomous/) |
+| 2026-08-29 | AI Managed Help Thread | [Open post](https://www.reddit.com/r/hermesagent/comments/1w1be86/ai_managed_help_thread/) |
 | 2026-08-27 | Community-plugins | [Open post](https://www.reddit.com/r/hermesagent/comments/1vzfv3v/communityplugins/) |
 | 2026-08-23 | Looking for a few people to help test and finish a voice control plane for Hermes | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwj2sa/looking_for_a_few_people_to_help_test_and_finish/) |
 | 2026-08-23 | We built a community plugin list for the Hermes desktop client | [Open post](https://www.reddit.com/r/hermesagent/comments/1vwisf2/we_built_a_community_plugin_list_for_the_hermes/) |
