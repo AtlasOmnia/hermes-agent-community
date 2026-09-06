@@ -2,12 +2,28 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 127 posts
+**Total:** 143 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-09-06 | Hermes Agent Community Home | [Open post](https://www.reddit.com/r/hermesagent/comments/1w8mmct/hermes_agent_community_home/) |
+| 2026-09-06 | TEST | [Open post](https://www.reddit.com/r/hermesagent/comments/1w8lzfu/test/) |
+| 2026-09-05 | What do we think about Hermes bots and group chat? | [Open post](https://www.reddit.com/r/hermesagent/comments/1w87dqf/what_do_we_think_about_hermes_bots_and_group_chat/) |
+| 2026-09-05 | Another command cheat sheet | [Open post](https://www.reddit.com/r/hermesagent/comments/1w7qozf/another_command_cheat_sheet/) |
+| 2026-09-04 | 4 Hermes Agent PRs merged in the last 24 hours — through September 4, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1w7az9t/4_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-03 | Nous Research on X: "Hermes Desktop now sets up local models in one click. It automatically reads your hardware, picks the best model for you, then downloads it and configures the runtime." / X | [Open post](https://www.reddit.com/r/hermesagent/comments/1w6izuc/nous_research_on_x_hermes_desktop_now_sets_up/) |
+| 2026-09-03 | Monthly Nous Research Referral Thread | [Open post](https://www.reddit.com/r/hermesagent/comments/1w6g47m/monthly_nous_research_referral_thread/) |
+| 2026-09-03 | 100 Hermes Agent PRs merged in the last 24 hours — through September 3, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1w6e2bq/100_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-02 | 160 Hermes Agent PRs merged in the last 24 hours — through September 2, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1w5h1tx/160_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-01 | 131 Hermes Agent PRs merged in the last 24 hours — through September 1, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1w4itd1/131_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-08-31 | Hermes Agent v0.21.0 “The Pantheon Release” is out | [Open post](https://www.reddit.com/r/hermesagent/comments/1w3ptz2/hermes_agent_v0210_the_pantheon_release_is_out/) |
+| 2026-08-31 | Most Useful Commands Cheat Sheet | [Open post](https://www.reddit.com/r/hermesagent/comments/1w3m227/most_useful_commands_cheat_sheet/) |
+| 2026-08-31 | 146 Hermes Agent PRs merged since the last roundup — through August 31, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1w3knah/146_hermes_agent_prs_merged_since_the_last/) |
+| 2026-08-31 | August Cloud Model Megathread | [Open post](https://www.reddit.com/r/hermesagent/comments/1w3ghs1/august_cloud_model_megathread/) |
+| 2026-08-31 | MEGATHREAD - How Hermes Agent Memory Actually Works in 2026: Native Memory, Providers, Obsidian, Profiles, Backups & Recall Tests | [Open post](https://www.reddit.com/r/hermesagent/comments/1w301d0/megathread_how_hermes_agent_memory_actually_works/) |
+| 2026-08-30 | 57 Hermes Agent PRs merged on August 29, 2026, grouped by area | [Open post](https://www.reddit.com/r/hermesagent/comments/1w2ocmg/57_hermes_agent_prs_merged_on_august_29_2026/) |
 | 2026-08-30 | Qwen3.8-27B on Mac: quants, temperatures, hardware, and the speed tricks that actually matter | [Open post](https://www.reddit.com/r/hermesagent/comments/1w28crr/qwen3827b_on_mac_quants_temperatures_hardware_and/) |
 | 2026-08-29 | How to Use Hermes Anywhere: Mobile, Messaging & Remote Access Megathread | [Open post](https://www.reddit.com/r/hermesagent/comments/1w1ulkc/how_to_use_hermes_anywhere_mobile_messaging/) |
 | 2026-08-29 | How are people using Hermes Agent for autonomous coding and keeping long-running projects going unattended? | [Open post](https://www.reddit.com/r/hermesagent/comments/1w1ud8h/how_are_people_using_hermes_agent_for_autonomous/) |
