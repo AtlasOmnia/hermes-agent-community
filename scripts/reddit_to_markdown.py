@@ -74,7 +74,8 @@ def extract_reddit_posts(subreddit='hermesagent', limit=25, time_filter='day', s
         if len(posts) >= limit:
             break
     
-    print(f"Listing returned {len(listing_posts)} posts; fetched {len(posts)} posts meeting threshold (≥{score_threshold})", file=sys.stderr)
+    print(f"Listing returned {len(listing_posts)} posts", file=sys.stderr)
+    print(f"Fetched {len(posts)} posts meeting threshold (≥{score_threshold})", file=sys.stderr)
     return posts
 
 
