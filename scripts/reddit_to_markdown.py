@@ -8,6 +8,7 @@ import sys
 import os
 import json
 import re
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -17,111 +18,109 @@ from bs4 import BeautifulSoup
 
 
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-BASE_URL = 'https://old.reddit.com'
+BASE_URL = 'https://www.reddit.com'
 SESSION = requests.Session()
 SESSION.headers.update({'User-Agent': USER_AGENT, 'Accept': 'text/html,application/xhtml+xml'})
 
 
 def extract_reddit_posts(subreddit='hermesagent', limit=25, time_filter='day', score_threshold=5):
-    """
-    Fetch top posts from subreddit by scraping old.reddit.com HTML.
-    No authentication required.
-    """
-    time_map = {'hour': 'hour', 'day': 'day', 'week': 'week', 'month': 'month', 'year': 'year', 'all': 'all'}
-    t = time_map.get(time_filter, 'day')
-    
-    url = f'{BASE_URL}/r/{subreddit}/top/?t={t}&limit={limit}'
+    """Fetch top posts from Reddit's current server-rendered feed."""
+    time_map = {'hour': 'HOUR', 'day': 'DAY', 'week': 'WEEK', 'month': 'MONTH', 'year': 'YEAR', 'all': 'ALL'}
+    t = time_map.get(time_filter, 'DAY')
+
+    # Reddit retired the old HTML listing and now serves post metadata through
+    # this public partial used by the current web frontend. It includes scores,
+    # unlike the public RSS feed, so the configured threshold remains enforceable.
+    url = f'{BASE_URL}/svc/shreddit/community-more-posts/top/'
+    params = {
+        't': t,
+        'limit': str(limit),
+        'name': subreddit,
+        'navigationSessionId': str(uuid.uuid4()),
+        'feedLength': '0',
+    }
     print(f"Fetching {url}...", file=sys.stderr)
     
-    response = SESSION.get(url, timeout=30)
+    response = SESSION.get(
+        url,
+        params=params,
+        headers={'Referer': f'{BASE_URL}/r/{subreddit}/top/?t={time_filter}&limit={limit}'},
+        timeout=30,
+        allow_redirects=False,
+    )
     if response.status_code != 200:
         print(f"Error: HTTP {response.status_code}", file=sys.stderr)
         print(response.text[:500], file=sys.stderr)
         sys.exit(1)
     
-    soup = BeautifulSoup(response.text, 'lxml')
-    posts = []
+    soup = BeautifulSoup(response.text, 'html.parser')
+    listing_posts = soup.find_all('shreddit-post')
+    if not listing_posts:
+        title = soup.title.get_text(' ', strip=True) if soup.title else 'untitled response'
+        raise RuntimeError(
+            f"Reddit feed returned no post records (title: {title!r}); refusing to treat an error page as empty"
+        )
     
-    # old.reddit.com listing: each post is in a <div class="thing" data-type="link">
-    for thing in soup.find_all('div', class_='thing', attrs={'data-type': 'link'}):
+    posts = []
+    for post_element in listing_posts:
         try:
-            post = parse_listing_thing(thing, subreddit)
+            post = parse_shreddit_post(post_element)
             if post and post['score'] >= score_threshold:
                 posts.append(post)
-        except Exception as e:
-            print(f"  ⚠ Skipping post (parse error: {e})", file=sys.stderr)
+        except Exception as exc:
+            print(f"  ⚠ Skipping post (parse error: {exc})", file=sys.stderr)
             continue
         
         if len(posts) >= limit:
             break
     
-    print(f"Fetched {len(posts)} posts meeting threshold (≥{score_threshold})", file=sys.stderr)
+    print(f"Listing returned {len(listing_posts)} posts; fetched {len(posts)} posts meeting threshold (≥{score_threshold})", file=sys.stderr)
     return posts
 
 
-def parse_listing_thing(thing, subreddit):
-    """Parse a single .thing element from the listing page."""
-    data = {}
-    data['id'] = thing.get('data-fullname', '') or thing.get('id', '')
-    
-    # Title and permalink
-    title_elem = thing.find('a', class_='title')
-    if not title_elem:
+def parse_shreddit_post(post_element):
+    """Parse one current Reddit ``<shreddit-post>`` feed element."""
+    title = post_element.get('post-title', '').strip()
+    permalink = post_element.get('permalink', '').strip()
+    if not title or not permalink:
         return None
-    data['title'] = title_elem.get_text(strip=True)
     
-    permalink = title_elem.get('href', '')
-    if permalink.startswith('/'):
-        data['permalink'] = urljoin(BASE_URL, permalink)
+    data = {
+        'id': post_element.get('id', ''),
+        'title': title,
+        'permalink': urljoin(BASE_URL, permalink),
+        'author': post_element.get('author', '[deleted]') or '[deleted]',
+        'score': int(post_element.get('score', '0') or '0'),
+        'upvote_ratio': float(post_element.get('upvote-ratio', '0') or '0'),
+        'num_comments': int(post_element.get('comment-count', '0') or '0'),
+        'flair': '',
+        'selftext': '',
+    }
+
+    timestamp = post_element.get('created-timestamp', '')
+    if timestamp:
+        try:
+            parsed_timestamp = datetime.fromisoformat(timestamp.replace('Z', '+00:00'))
+            if parsed_timestamp.tzinfo is None:
+                parsed_timestamp = parsed_timestamp.replace(tzinfo=timezone.utc)
+            data['created_utc'] = int(parsed_timestamp.timestamp())
+        except ValueError:
+            data['created_utc'] = 0
     else:
-        data['permalink'] = permalink
+        data['created_utc'] = 0
     
-    # Author
-    author_elem = thing.find('a', class_='author')
-    data['author'] = author_elem.get_text(strip=True) if author_elem else '[deleted]'
+    content_href = (post_element.get('content-href') or '').strip()
+    post_type = (post_element.get('post-type') or '').lower()
+    data['url'] = content_href if content_href and content_href != data['permalink'] else data['permalink']
     
-    # Score
-    score_elem = thing.find('div', class_='score')
-    score_text = score_elem.get_text(strip=True) if score_elem else '0'
-    score_text = score_text.replace('points', '').replace('point', '').strip()
-    try:
-        data['score'] = int(score_text)
-    except ValueError:
-        data['score'] = 0
+    flair_element = post_element.find('shreddit-post-flair')
+    if flair_element:
+        data['flair'] = flair_element.get_text(' ', strip=True)
     
-    # Upvote ratio (not available on old.reddit listing, default to 0)
-    data['upvote_ratio'] = 0
-    
-    # Comments count
-    comments_elem = thing.find('a', class_='comments')
-    if comments_elem:
-        comments_text = comments_elem.get_text(strip=True)
-        comments_match = re.search(r'(\d+)', comments_text)
-        data['num_comments'] = int(comments_match.group(1)) if comments_match else 0
-    else:
-        data['num_comments'] = 0
-    
-    # Timestamp from data attribute
-    data['created_utc'] = int(thing.get('data-timestamp', '0')) // 1000 if thing.get('data-timestamp') else 0
-    
-    # URL (external link or self post)
-    domain = thing.find('span', class_='domain')
-    external_link = title_elem.get('href', '')
-    if domain and '(self.' in domain.get_text(strip=True):
-        data['url'] = data['permalink']
-    elif external_link.startswith('http'):
-        data['url'] = external_link
-    else:
-        data['url'] = data['permalink']
-    
-    # Flair
-    flair_elem = thing.find('span', class_='linkflairlabel')
-    data['flair'] = flair_elem.get_text(strip=True) if flair_elem else ''
-    
-    # For self posts, fetch the actual content
-    data['selftext'] = ''
-    if 'self.' in subreddit.lower() or data['url'] == data['permalink'] or not data['url']:
-        data['selftext'] = fetch_selftext(data['permalink'])
+    if post_type == 'text' or data['url'] == data['permalink']:
+        text_body = post_element.find('shreddit-post-text-body')
+        if text_body:
+            data['selftext'] = text_body.get_text('\n', strip=True)
     
     return data
 
@@ -254,7 +253,7 @@ def main():
     print(f"  Limit: {limit}", file=sys.stderr)
     print(f"  Time filter: {time_filter}", file=sys.stderr)
     print(f"  Score threshold: ≥{score_threshold}", file=sys.stderr)
-    print(f"  Method: scraping old.reddit.com HTML", file=sys.stderr)
+    print(f"  Method: Reddit server-rendered feed partial", file=sys.stderr)
     print(file=sys.stderr)
     
     # Create output directory
