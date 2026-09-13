@@ -2,12 +2,18 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 143 posts
+**Total:** 149 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-09-11 | 79 Hermes Agent PRs merged in the last 24 hours — through September 11, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wdmu52/79_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-10 | 100 Hermes Agent PRs merged in the last 24 hours — through September 10, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wcpu01/100_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-09 | 99 Hermes Agent PRs merged in the last 24 hours — through September 9, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wbs7lm/99_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-08 | 52 Hermes Agent PRs merged in the last 24 hours — through September 8, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wav0i0/52_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-07 | 263 Hermes Agent PRs merged over the weekend — through Monday, September 7, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wa8cxh/263_hermes_agent_prs_merged_over_the_weekend/) |
+| 2026-09-07 | Hermes Agent \| Community Home | [Open post](https://www.reddit.com/r/hermesagent/comments/1wa3rly/hermes_agent_community_home/) |
 | 2026-09-06 | Hermes Agent Community Home | [Open post](https://www.reddit.com/r/hermesagent/comments/1w8mmct/hermes_agent_community_home/) |
 | 2026-09-06 | TEST | [Open post](https://www.reddit.com/r/hermesagent/comments/1w8lzfu/test/) |
 | 2026-09-05 | What do we think about Hermes bots and group chat? | [Open post](https://www.reddit.com/r/hermesagent/comments/1w87dqf/what_do_we_think_about_hermes_bots_and_group_chat/) |
