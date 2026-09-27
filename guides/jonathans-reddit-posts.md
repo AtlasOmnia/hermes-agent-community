@@ -2,12 +2,27 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 149 posts
+**Total:** 164 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-09-26 | 97 Hermes Agent PRs merged in the last 24 hours — through September 25, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wqhw1e/97_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-26 | Jev vs Laya vs small predictive model vs nothing | [Open post](https://www.reddit.com/r/hermesagent/comments/1wqh7fm/jev_vs_laya_vs_small_predictive_model_vs_nothing/) |
+| 2026-09-25 | YES there is a codex / GPT Oauth Outage (Mental Support Thread) | [Open post](https://www.reddit.com/r/hermesagent/comments/1wqagas/yes_there_is_a_codex_gpt_oauth_outage_mental/) |
+| 2026-09-23 | 126 Hermes Agent PRs merged in the last 24 hours — through September 23, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wochxx/126_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-22 | My first 6 months with Hermes – Use Case | [Open post](https://www.reddit.com/r/hermesagent/comments/1wnpmxz/my_first_6_months_with_hermes_use_case/) |
+| 2026-09-22 | Megathread Requests | [Open post](https://www.reddit.com/r/hermesagent/comments/1wno872/megathread_requests/) |
+| 2026-09-22 | What broke this week? | [Open post](https://www.reddit.com/r/hermesagent/comments/1wno6j7/what_broke_this_week/) |
+| 2026-09-22 | 118 Hermes Agent PRs merged in the last 24 hours — through September 22, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wng0zn/118_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-22 | Who is using the gpt-live-1-codex oauth plugin? | [Open post](https://www.reddit.com/r/hermesagent/comments/1wmz8fq/who_is_using_the_gptlive1codex_oauth_plugin/) |
+| 2026-09-21 | 976 Hermes Agent PRs merged over the weekend — through Monday, September 21, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wmm8ui/976_hermes_agent_prs_merged_over_the_weekend/) |
+| 2026-09-18 | 158 Hermes Agent PRs merged in the last 24 hours — through September 18, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wjwoa6/158_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-18 | Bots vs profiles in Hermes, explained without the architecture lecture | [Open post](https://www.reddit.com/r/hermesagent/comments/1wjvnd6/bots_vs_profiles_in_hermes_explained_without_the/) |
+| 2026-09-17 | Bonsai 2 27b is out at around 6gb | [Open post](https://www.reddit.com/r/hermesagent/comments/1wj8pko/bonsai_2_27b_is_out_at_around_6gb/) |
+| 2026-09-17 | Teknium dropped an X post today laying out where Hermes' architecture is headed, and it's a bigger shift than the opening line makes it sound. | [Open post](https://www.reddit.com/r/hermesagent/comments/1wj7x11/teknium_dropped_an_x_post_today_laying_out_where/) |
+| 2026-09-17 | 262 Hermes Agent PRs merged in the last 24 hours — through September 17, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wj7ts3/262_hermes_agent_prs_merged_in_the_last_24_hours/) |
 | 2026-09-11 | 79 Hermes Agent PRs merged in the last 24 hours — through September 11, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wdmu52/79_hermes_agent_prs_merged_in_the_last_24_hours/) |
 | 2026-09-10 | 100 Hermes Agent PRs merged in the last 24 hours — through September 10, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wcpu01/100_hermes_agent_prs_merged_in_the_last_24_hours/) |
 | 2026-09-09 | 99 Hermes Agent PRs merged in the last 24 hours — through September 9, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wbs7lm/99_hermes_agent_prs_merged_in_the_last_24_hours/) |
