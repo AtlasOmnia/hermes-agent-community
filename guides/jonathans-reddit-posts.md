@@ -2,12 +2,36 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 164 posts
+**Total:** 188 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-10-09 | What do you want in a Hermes mobile app? | [Open post](https://www.reddit.com/r/hermesagent/comments/1x1zdix/what_do_you_want_in_a_hermes_mobile_app/) |
+| 2026-10-09 | 67 Hermes Agent PRs merged in the last 24 hours — through October 9, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1x1x4lj/67_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-08 | 107 Hermes Agent PRs merged in the last 24 hours — through October 8, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1x0x535/107_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-08 | JEV / LAYA Update | [Open post](https://www.reddit.com/r/hermesagent/comments/1x0gsu4/jev_laya_update/) |
+| 2026-10-07 | 147 Hermes Agent PRs merged in the last 24 hours — through October 7, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1x02qt0/147_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-06 | 187 Hermes Agent PRs merged in the last 24 hours — through October 6, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wz8pi2/187_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-06 | 96 Hermes Agent PRs merged in the last 24 hours — through October 5, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wz8pck/96_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-06 | 89 Hermes Agent PRs merged in the last 24 hours — through October 4, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wz8p8w/89_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-06 | 246 Hermes Agent PRs merged in the last 24 hours — through October 3, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wz8p4m/246_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-06 | Hermes Cheat Sheet 10/2026 | [Open post](https://www.reddit.com/r/hermesagent/comments/1wz334g/hermes_cheat_sheet_102026/) |
+| 2026-10-05 | Operator Lab: What’s one real task you want Hermes to handle? Let’s work through three. | [Open post](https://www.reddit.com/r/hermesagent/comments/1wyimkz/operator_lab_whats_one_real_task_you_want_hermes/) |
+| 2026-10-05 | Monthly Nous Research Referral Thread | [Open post](https://www.reddit.com/r/hermesagent/comments/1wyg6hj/monthly_nous_research_referral_thread/) |
+| 2026-10-03 | AMA who? | [Open post](https://www.reddit.com/r/hermesagent/comments/1wwws3r/ama_who/) |
+| 2026-10-03 | Does anyone use Oh my Hermes? | [Open post](https://www.reddit.com/r/hermesagent/comments/1wwsm9v/does_anyone_use_oh_my_hermes/) |
+| 2026-10-02 | 96 Hermes Agent PRs merged in the last 24 hours — through October 2, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wvztux/96_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-01 | What local model are you running with Hermes and on what hardware | [Open post](https://www.reddit.com/r/hermesagent/comments/1wv8amt/what_local_model_are_you_running_with_hermes_and/) |
+| 2026-10-01 | 164 Hermes Agent PRs merged in the last 24 hours — through October 1, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wv5p0f/164_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-01 | 166 Hermes Agent PRs merged in the last 24 hours — through September 30, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wv5ov1/166_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-10-01 | 118 Hermes Agent PRs merged in the last 24 hours — through September 29, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wv5opq/118_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-30 | Terms "JEV" and "Laya" are banned | [Open post](https://www.reddit.com/r/hermesagent/comments/1wufwfv/terms_jev_and_laya_are_banned/) |
+| 2026-09-28 | 160 Hermes Agent PRs merged in the last 24 hours — through September 28, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wsl1g1/160_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-28 | 264 Hermes Agent PRs merged in the last 24 hours — through September 27, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wsl18j/264_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-28 | 107 Hermes Agent PRs merged in the last 24 hours — through September 26, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wsl10p/107_hermes_agent_prs_merged_in_the_last_24_hours/) |
+| 2026-09-27 | Open Discussion - AI Models and what's ahead | [Open post](https://www.reddit.com/r/hermesagent/comments/1wrndrq/open_discussion_ai_models_and_whats_ahead/) |
 | 2026-09-26 | 97 Hermes Agent PRs merged in the last 24 hours — through September 25, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1wqhw1e/97_hermes_agent_prs_merged_in_the_last_24_hours/) |
 | 2026-09-26 | Jev vs Laya vs small predictive model vs nothing | [Open post](https://www.reddit.com/r/hermesagent/comments/1wqh7fm/jev_vs_laya_vs_small_predictive_model_vs_nothing/) |
 | 2026-09-25 | YES there is a codex / GPT Oauth Outage (Mental Support Thread) | [Open post](https://www.reddit.com/r/hermesagent/comments/1wqagas/yes_there_is_a_codex_gpt_oauth_outage_mental/) |
