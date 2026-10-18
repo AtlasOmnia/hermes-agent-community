@@ -2,12 +2,16 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 188 posts
+**Total:** 192 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-10-17 | Community Feature: by2kb turns your "watch later" list into notes | [Open post](https://www.reddit.com/r/hermesagent/comments/1x8knw8/community_feature_by2kb_turns_your_watch_later/) |
+| 2026-10-17 | PSA: OpenCode is emailing customers about a possible API key breach. If you saved provider keys in an opencode.ai workspace, rotate them | [Open post](https://www.reddit.com/r/hermesagent/comments/1x8g56x/psa_opencode_is_emailing_customers_about_a/) |
+| 2026-10-15 | Hermes Tool Router: (Unnofficial) update | [Open post](https://www.reddit.com/r/hermesagent/comments/1x6dc13/hermes_tool_router_unnofficial_update/) |
+| 2026-10-14 | Hermes Agent v0.22.0: The Threshold Release | [Open post](https://www.reddit.com/r/hermesagent/comments/1x5u50y/hermes_agent_v0220_the_threshold_release/) |
 | 2026-10-09 | What do you want in a Hermes mobile app? | [Open post](https://www.reddit.com/r/hermesagent/comments/1x1zdix/what_do_you_want_in_a_hermes_mobile_app/) |
 | 2026-10-09 | 67 Hermes Agent PRs merged in the last 24 hours — through October 9, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1x1x4lj/67_hermes_agent_prs_merged_in_the_last_24_hours/) |
 | 2026-10-08 | 107 Hermes Agent PRs merged in the last 24 hours — through October 8, 2026, 1:30 PM ET | [Open post](https://www.reddit.com/r/hermesagent/comments/1x0x535/107_hermes_agent_prs_merged_in_the_last_24_hours/) |
