@@ -11,6 +11,7 @@ Hermes Agent Community Resources is an SEO-first mirror of the highest-signal r/
 - [Skills guide](guides/skills-guide.md)
 - [Cron jobs and automation](guides/cron-jobs-automation.md)
 - [Telegram setup](guides/telegram-gateway-setup.md)
+- [Run Hermes from your phone: Telegram vs Discord vs Matrix vs apps](guides/run-hermes-from-your-phone.md)
 - [Use cases](guides/use-cases.md)
 - [Community builds](showcase/community-builds/)
 - [Automation recipes](showcase/automation-recipes/)
