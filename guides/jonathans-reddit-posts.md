@@ -2,12 +2,13 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 192 posts
+**Total:** 193 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-10-24 | PSA: Two incidents this week targeted AI agent credentials. If you run Hermes on Railway or installed the OVHcloud CLI, read this. | [Open post](https://www.reddit.com/r/hermesagent/comments/1xeiayj/psa_two_incidents_this_week_targeted_ai_agent/) |
 | 2026-10-17 | Community Feature: by2kb turns your "watch later" list into notes | [Open post](https://www.reddit.com/r/hermesagent/comments/1x8knw8/community_feature_by2kb_turns_your_watch_later/) |
 | 2026-10-17 | PSA: OpenCode is emailing customers about a possible API key breach. If you saved provider keys in an opencode.ai workspace, rotate them | [Open post](https://www.reddit.com/r/hermesagent/comments/1x8g56x/psa_opencode_is_emailing_customers_about_a/) |
 | 2026-10-15 | Hermes Tool Router: (Unnofficial) update | [Open post](https://www.reddit.com/r/hermesagent/comments/1x6dc13/hermes_tool_router_unnofficial_update/) |
