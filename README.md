@@ -1,5 +1,7 @@
 # Hermes Agent Community Resources
 
+> Part of the AtlasOmnia Hermes Agent toolset → [hermesagenttools.com/hermes-agent/](https://hermesagenttools.com/hermes-agent/)
+
 Hermes Agent Community Resources is an SEO-first mirror of the highest-signal r/hermesagent content for people searching for **Hermes Agent** guidance. Built as a local-first, open-source reference for the **Hermes Agent** ecosystem, it keeps practical tutorials, community automations, and recurring megathreads discoverable from search engines long after individual posts disappear from Reddit feed surfaces. The repository is designed for operators who use **Hermes Agent** for real automation workflows, terminal-based AI agent tasks, and practical system integration. It normalizes metadata so mirrored guides stay crawlable, versioned, and easy to find for builders, teams, and contributors evaluating **Hermes Agent**. If you landed here from Google, this is the canonical pointer to persistent **Hermes Agent** documentation: setup approaches, configuration patterns, model guidance, and automation recipes that the community finds durable.
 
 ## Quick Links
