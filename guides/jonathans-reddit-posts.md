@@ -2,12 +2,19 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 196 posts
+**Total:** 203 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-11-15 | What agent features or apps do we want to cop…. Errr open source? | [Open post](https://www.reddit.com/r/hermesagent/comments/1xwhwdc/what_agent_features_or_apps_do_we_want_to_cop/) |
+| 2026-11-12 | Title: Sidecar for Excel, Word and PowerPoint: Hermes in its own Office sidebar (my Hackathon submission) | [Open post](https://www.reddit.com/r/hermesagent/comments/1xunbdy/title_sidecar_for_excel_word_and_powerpoint/) |
+| 2026-11-12 | Yes you can use Claude oauth with Hermes | [Open post](https://www.reddit.com/r/hermesagent/comments/1xu2hq5/yes_you_can_use_claude_oauth_with_hermes/) |
+| 2026-11-09 | Let's talk quants for a minute | [Open post](https://www.reddit.com/r/hermesagent/comments/1xrklo0/lets_talk_quants_for_a_minute/) |
+| 2026-11-03 | Nous Mobile App Walk through | [Open post](https://www.reddit.com/r/hermesagent/comments/1xn8ezq/nous_mobile_app_walk_through/) |
+| 2026-11-03 | Join the Nous Mobile App wait List | [Open post](https://www.reddit.com/r/hermesagent/comments/1xn2y7h/join_the_nous_mobile_app_wait_list/) |
+| 2026-11-03 | Join the mobile waitlist | [Open post](https://www.reddit.com/r/hermesagent/comments/1xn2vzt/join_the_mobile_waitlist/) |
 | 2026-11-01 | How does your spouse react? | [Open post](https://www.reddit.com/r/hermesagent/comments/1xl6ih2/how_does_your_spouse_react/) |
 | 2026-10-31 | Please no more vague posting about the Invite Only Hermes Beta for mobile or where to find it. We must respect the process. Thank you. | [Open post](https://www.reddit.com/r/hermesagent/comments/1xkkra2/please_no_more_vague_posting_about_the_invite/) |
 | 2026-10-27 | What local model are you running with Hermes, and on what hardware? (Round 2) | [Open post](https://www.reddit.com/r/hermesagent/comments/1xgss06/what_local_model_are_you_running_with_hermes_and/) |
