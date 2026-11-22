@@ -2,12 +2,15 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 203 posts
+**Total:** 206 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-11-21 | Action needed: dots, Muse and Grok Bot users, post your proactive nudges (hits AND noise) to help shape Hermes proactivity | [Open post](https://www.reddit.com/r/hermesagent/comments/1y246d5/action_needed_dots_muse_and_grok_bot_users_post/) |
+| 2026-11-20 | Bring Hermes into your LibreOffice docs to work alongside you | [Open post](https://www.reddit.com/r/hermesagent/comments/1y16b7y/bring_hermes_into_your_libreoffice_docs_to_work/) |
+| 2026-11-20 | Making Hermes proactive — and an honest comparison with Grok Bot, Muse and Dots | [Open post](https://www.reddit.com/r/hermesagent/comments/1y15mir/making_hermes_proactive_and_an_honest_comparison/) |
 | 2026-11-15 | What agent features or apps do we want to cop…. Errr open source? | [Open post](https://www.reddit.com/r/hermesagent/comments/1xwhwdc/what_agent_features_or_apps_do_we_want_to_cop/) |
 | 2026-11-12 | Title: Sidecar for Excel, Word and PowerPoint: Hermes in its own Office sidebar (my Hackathon submission) | [Open post](https://www.reddit.com/r/hermesagent/comments/1xunbdy/title_sidecar_for_excel_word_and_powerpoint/) |
 | 2026-11-12 | Yes you can use Claude oauth with Hermes | [Open post](https://www.reddit.com/r/hermesagent/comments/1xu2hq5/yes_you_can_use_claude_oauth_with_hermes/) |
