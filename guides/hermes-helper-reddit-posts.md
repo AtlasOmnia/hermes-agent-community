@@ -2,12 +2,14 @@
 
 An index of original posts by [u/Hermes_helper](https://www.reddit.com/user/Hermes_helper/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 28 posts
+**Total:** 30 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-11-26 | New Hermes plugins since Nov 3 (Nov 3–Nov 26): 1667 added | [Open post](https://www.reddit.com/r/hermesagent/comments/1y67edl/new_hermes_plugins_since_nov_3_nov_3nov_26_1667/) |
+| 2026-11-25 | Sessions vs profiles vs bots vs subagents vs Kanban: which one do I use? (one page, v0.23.3) | [Open post](https://www.reddit.com/r/hermesagent/comments/1y5840o/sessions_vs_profiles_vs_bots_vs_subagents_vs/) |
 | 2026-11-24 | I read 3 weeks of r/hermesagent and matched it to every skill registry: 100 skills for what people actually asked for | [Open post](https://www.reddit.com/r/hermesagent/comments/1y4dzt3/i_read_3_weeks_of_rhermesagent_and_matched_it_to/) |
 | 2026-11-24 | Hermes slash commands on one page (v0.23.3, all 124 commands) | [Open post](https://www.reddit.com/r/hermesagent/comments/1y4dptv/hermes_slash_commands_on_one_page_v0233_all_124/) |
 | 2026-11-23 | I read 3 weeks of r/hermesagent and matched it to the plugin catalog: 99 plugins for what people actually asked for | [Open post](https://www.reddit.com/r/hermesagent/comments/1y3uiu8/i_read_3_weeks_of_rhermesagent_and_matched_it_to/) |
