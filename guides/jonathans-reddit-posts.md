@@ -2,12 +2,14 @@
 
 An index of original posts by [u/Jonathan_Rivera](https://www.reddit.com/user/Jonathan_Rivera/) in [r/hermesagent](https://www.reddit.com/r/hermesagent/). Comments are intentionally excluded.
 
-**Total:** 206 posts
+**Total:** 208 posts
 **Dates:** UTC
 **Ordering:** newest to oldest
 
 | Date | Topic | Reddit post |
 | --- | --- | --- |
+| 2026-11-26 | Who is interested in working alongside Hermes in chrome? | [Open post](https://www.reddit.com/r/hermesagent/comments/1y6e4z6/who_is_interested_in_working_alongside_hermes_in/) |
+| 2026-11-25 | This is ridiculous | [Open post](https://www.reddit.com/r/hermesagent/comments/1y4syaw/this_is_ridiculous/) |
 | 2026-11-21 | Action needed: dots, Muse and Grok Bot users, post your proactive nudges (hits AND noise) to help shape Hermes proactivity | [Open post](https://www.reddit.com/r/hermesagent/comments/1y246d5/action_needed_dots_muse_and_grok_bot_users_post/) |
 | 2026-11-20 | Bring Hermes into your LibreOffice docs to work alongside you | [Open post](https://www.reddit.com/r/hermesagent/comments/1y16b7y/bring_hermes_into_your_libreoffice_docs_to_work/) |
 | 2026-11-20 | Making Hermes proactive — and an honest comparison with Grok Bot, Muse and Dots | [Open post](https://www.reddit.com/r/hermesagent/comments/1y15mir/making_hermes_proactive_and_an_honest_comparison/) |
